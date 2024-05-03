@@ -2,9 +2,7 @@
 
 ### 这个是一个通过 Cloudflare Workers 搭建，将你任意节点与多个订阅汇聚成专属于你的订阅链接
 
-Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)
-
-## Pages 部署方法 [视频教程](https://youtu.be/9npcBXZTSe4)
+## Pages 部署方法 
 ### 1. 部署 Cloudflare Pages：
    - 在 Github 上先 Fork 本项目，并点上 Star !!!
    - 在 Cloudflare Pages 控制台中选择 `连接到 Git`后，选中 `CF-Workers-SUB`项目后点击 `开始设置`。
@@ -35,7 +33,7 @@ vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIuWKoOWFpeaIkeeahOmikemBk3QubWUvQ01MaXVz
 ### 1. 部署 Cloudflare Worker：
 
    - 在 Cloudflare Worker 控制台中创建一个新的 Worker。
-   - 将 [worker.js](https://github.com/cmliu/CF-Workers-SUB/blob/main/_worker.js)  的内容粘贴到 Worker 编辑器中。
+   - 将 [worker.js] 的内容粘贴到 Worker 编辑器中。
 
 
 ### 2. 修改 订阅入口 ：
